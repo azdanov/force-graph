@@ -33,7 +33,8 @@
         "webpack-dev-server": "^2.9.5"
     },
     "dependencies": {
-        "d3": "^4.12.0"
+        "d3": "^4.12.0",
+        "file-loader": "^1.1.5"
     },
     "scripts": {
         "gh-pages": "gh-pages -d dist",
@@ -42,7 +43,7 @@
         "start": "webpack-dev-server",
         "lint:js": "eslint --ext=js . --fix",
         "lint:css": "stylelint \"**/*.css\" --fix",
-        "prebuild": "run-s clean lint:**",
+        "prebuild": "run-p clean lint:**",
         "build": "cross-env NODE_ENV=production webpack -p",
         "build:dev": "webpack"
     }
