@@ -8,5 +8,23 @@ body {
 }
 
 h1 {
-    margin-bottom: 0;
+    margin: 0;
+}
+
+main {
+    margin-top: 5px;
+    position: relative;
+}
+
+.flag {
+    position: absolute;
+}
+
+#tooltip {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.tooltip--visible {
+    display: block;
 }
