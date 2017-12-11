@@ -1,7 +1,12 @@
-circle {
-    fill: chocolate;
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    justify-content: center;
+    margin: 0;
 }
 
-text {
-    fill: maroon;
+h1 {
+    margin-bottom: 0;
 }
