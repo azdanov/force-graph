@@ -28,22 +28,22 @@ const simulation = d3
     .force("collision", d3.forceCollide());
 
 d3
-    .select("body")
+    .select("main")
     .append("h1")
     .text("National Contiguity");
 
 d3
-    .select("body")
+    .select("main")
     .append("p")
     .text("This chart shows countries which have common borders or have close proximity to each other.");
 d3
-    .select("body")
+    .select("main")
     .append("small")
     .text("To move click and drag. To zoom use the mouse wheel.");
 
 const svg = d3
-    .select("body")
-    .append("main")
+    .select("main")
+    .append("div")
     .append("svg")
     .attr("width", w)
     .attr("height", h);
@@ -52,7 +52,7 @@ svg
     .append("rect")
     .attr("width", "100%")
     .attr("height", "100%")
-    .attr("fill", "#ecf0f1");
+    .attr("fill", "#fff");
 
 const chart = svg.append("g");
 
