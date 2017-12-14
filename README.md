@@ -34,4 +34,4 @@ This graph illustrates borders and proximity of countries.
 
 ## License
 
-[Unlicense](https://unlicense.org)
+[MIT](https://opensource.org/licenses/MIT)
