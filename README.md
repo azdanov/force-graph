@@ -6,7 +6,7 @@ This graph illustrates borders and proximity of countries.
 
 ![Chart](https://res.cloudinary.com/anton-zdanov/image/upload/q_auto/v1513069955/Screen_Shot_2017-12-12_at_11.12.18_utjqju.png)
 
-[Live](https://azdanov.js.org/force-graph/)
+[Live](https://azdanov.github.io/force-graph/)
 
 ## Tools
 
