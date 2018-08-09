@@ -1,37 +1,23 @@
 # Force Graph
 
-D3.js Force Graph made for FreeCodeCamp.
+<p>D3.js force graph showing bordering countries. <a href="https://azdanov.github.io/force-graph/">Live</a></p>
 
-This graph illustrates borders and proximity of countries.
-
-![Chart](https://res.cloudinary.com/anton-zdanov/image/upload/q_auto/v1513069955/Screen_Shot_2017-12-12_at_11.12.18_utjqju.png)
-
-[Live](https://azdanov.github.io/force-graph/)
+![Chart](https://user-images.githubusercontent.com/6123841/43878463-0016f7b4-9ba8-11e8-9fc7-3d5188f089fa.png)
 
 ## Tools
 
--   [d3](https://github.com/d3/d3)
--   [babel](https://github.com/babel/babel)
--   [webpack](https://github.com/webpack)
--   [eslint](https://github.com/eslint/eslint)
--   [airbnb](https://github.com/airbnb/javascript)
--   [prettier](https://github.com/prettier/prettier)
--   [stylelint](https://github.com/stylelint/stylelint)
--   [cross-env](https://github.com/kentcdodds/cross-env)
--   [gh-pages](https://github.com/tschaub/gh-pages)
--   [npm-run-all](https://github.com/mysticatea/npm-run-all)
--   [rimraf](https://github.com/isaacs/rimraf)
--   [country-flags](https://github.com/hjnilsson/country-flags)
-
-## Data
-
--   [countries.json](https://raw.githubusercontent.com/DealPete/forceDirected/master/countries.json)
+- [d3](https://d3js.org/) - JavaScript library for visualizing data using web standards.
+- [Webpack](https://webpack.js.org/) - A bundler for JavaScript and friends.
+- [Babel](https://babeljs.io/) - A compiler for writing next generation JavaScript.
+- [PostCSS](https://postcss.org/) - A tool for transforming CSS with JavaScript.
 
 ## Build
 
--   `npm start` - start webpack-dev-server
--   `npm build` - build for production
+- `yarn` - install dependencies.
+- `yarn start` - start `webpack-serve` in development.
+- `yarn build` - build for production to `dist` directory.
+- `yarn deploy` - build and deploy to Github Pages.
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT)
+[MIT](./LICENSE)
